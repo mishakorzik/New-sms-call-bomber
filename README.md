@@ -16,25 +16,25 @@
 
 ## Итак, установка :
 
-pkg update && pkg upgrade
+* pkg update && pkg upgrade
 
-pkg install python
+* pkg install python
 
-pkg install git
+* pkg install git
 
-git clone https://github.com/Denishnc/b0mb3r
+* git clone https://github.com/Denishnc/b0mb3r
 
-cd b0mb3r
+* cd b0mb3r
 
 ### Ну здесь не очень сложно. 
 ### Далее мы устанавливаем библиотеки и запускаем :
 
-pip install -r requirements.txt
+* pip install -r requirements.txt
 
-python main.py
+* python main.py
 
-При возникновении ошибок, пишем:
+### При возникновении ошибок, пишем:
 
-pkg install python clang make openssl -y
+* pkg install python clang make openssl -y
 
 После запуска , у нас откроется окно в браузере(если не откроется то перейдите по ссылке в термукс):
